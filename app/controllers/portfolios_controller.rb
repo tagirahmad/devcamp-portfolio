@@ -7,9 +7,12 @@ class PortfoliosController < ApplicationController
     @angular_portfolio_items = Portfolio.angular
   end
 
+  def new
+    @portfolio_item = Portfolio.new
+  end
+
   def show
     @portfolio_item = Portfolio.find(params[:id])
-
   end
 
   def create
