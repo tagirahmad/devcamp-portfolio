@@ -2,29 +2,24 @@
 <html>
 
 <head>
-    <title><%= @page_title %></title>
-    <meta name="keywords" content="<%= @seo_keywords %>"/>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+  <title><%= @page_title %></title>
+  <meta name="keywords" content="<%= @seo_keywords %>"/>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
 </head>
 
 <body>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p>
 
-    <%= render 'shared/nav', location: 'top' %>
+<%= render 'shared/nav', location: 'top' %>
 
-    <% if current_user.is_a? User %>
-    <%= link_to 'Logout', destroy_user_session_path, method: :delete %>
-    <% else %>
-    <%= link_to 'Register', new_user_registration_path %>
-    <%= link_to 'Login', new_user_session_path %>
-    <% end %>
+<%= login_helper %>
 
-    <%= yield %>
+<%= yield %>
 </body>
 
 </html>
