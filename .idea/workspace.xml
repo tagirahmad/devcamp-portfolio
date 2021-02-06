@@ -20,11 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34046b84-6621-45e4-91a8-8395c4979468" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/shared/_nav.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/portfolios/_form.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/blogs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/blogs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/portfolios.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/portfolios.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/portfolios_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/portfolios_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/blog.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/blog.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/portfolio.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/portfolio.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/portfolios/edit.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/portfolios/edit.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/portfolios/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/portfolios/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_nav.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_nav.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +199,7 @@
       <workItem from="1612551960043" duration="85000" />
       <workItem from="1612552055690" duration="46000" />
       <workItem from="1612552104287" duration="801000" />
-      <workItem from="1612604766855" duration="1503000" />
+      <workItem from="1612604766855" duration="2236000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1612551590855</created>
@@ -215,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612605895495</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implemented partial for nav component">
+      <created>1612610184711</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612610184711</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +251,8 @@
     <MESSAGE value="commit" />
     <MESSAGE value="Added custom layouts for blogs and portfolios" />
     <MESSAGE value="Update .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update .gitignore" />
+    <MESSAGE value="Implemented partial for nav component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented partial for nav component" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612552043469">
@@ -248,54 +263,54 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="466" y="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1612604827397" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1612605216286">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1612610815738">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612605216286" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1612605216284">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612610815738" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1612610815738">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1612605216284" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1612605216284">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1612610815738" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1612610815737">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1612605216284" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1612605216285">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1612610815737" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1612610815738">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1612605216285" />
-    <state width="1398" height="245" key="GridCell.Tab.1.bottom" timestamp="1612605216288">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1612610815738" />
+    <state width="1398" height="245" key="GridCell.Tab.1.bottom" timestamp="1612610815740">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612605216288" />
-    <state width="1398" height="245" key="GridCell.Tab.1.center" timestamp="1612605216287">
+    <state width="1398" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612610815740" />
+    <state width="1398" height="245" key="GridCell.Tab.1.center" timestamp="1612610815739">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1612605216287" />
-    <state width="1398" height="245" key="GridCell.Tab.1.left" timestamp="1612605216286">
+    <state width="1398" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1612610815739" />
+    <state width="1398" height="245" key="GridCell.Tab.1.left" timestamp="1612610815739">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1612605216286" />
-    <state width="1398" height="245" key="GridCell.Tab.1.right" timestamp="1612605216287">
+    <state width="1398" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1612610815739" />
+    <state width="1398" height="245" key="GridCell.Tab.1.right" timestamp="1612610815739">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1612605216287" />
+    <state width="1398" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1612610815739" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1612551951656">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1612551951656" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1612605905276">
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1612610186154">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1612605905276" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1612610186154" />
     <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1612552159406">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1612552159406" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1612610093800">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1612610861320">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1612610093800" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1612610861320" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/devcamp_portfolio@Development__devcamp_portfolio.rcov" NAME="Development: devcamp-portfolio Coverage Results" MODIFIED="1612610109618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="devcamp-portfolio" />
