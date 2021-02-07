@@ -25,6 +25,7 @@
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/blog.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/blog.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/portfolio.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/portfolio.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/home.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +193,8 @@
       <workItem from="1612551960043" duration="85000" />
       <workItem from="1612552055690" duration="46000" />
       <workItem from="1612552104287" duration="801000" />
-      <workItem from="1612604766855" duration="2815000" />
+      <workItem from="1612604766855" duration="3025000" />
+      <workItem from="1612715972679" duration="801000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1612551590855</created>
@@ -229,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612611070508</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Implemented view helper for auth links">
+      <created>1612611897057</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612611897057</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +262,8 @@
     <MESSAGE value="Update .gitignore" />
     <MESSAGE value="Implemented partial for nav component" />
     <MESSAGE value="Implemented partials with local data for portfolio form and navbars" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented partials with local data for portfolio form and navbars" />
+    <MESSAGE value="Implemented view helper for auth links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented view helper for auth links" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612552043469">
@@ -264,56 +274,56 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="466" y="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1612604827397" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1612610815738">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1612621262047">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612610815738" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1612610815738">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612621262047" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1612621262046">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1612610815738" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1612610815737">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1612621262046" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1612621262046">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1612610815737" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1612610815738">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1612621262046" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1612621262047">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1612610815738" />
-    <state width="1398" height="245" key="GridCell.Tab.1.bottom" timestamp="1612610815740">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1612621262047" />
+    <state width="1398" height="245" key="GridCell.Tab.1.bottom" timestamp="1612621262049">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612610815740" />
-    <state width="1398" height="245" key="GridCell.Tab.1.center" timestamp="1612610815739">
+    <state width="1398" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612621262049" />
+    <state width="1398" height="245" key="GridCell.Tab.1.center" timestamp="1612621262048">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1612610815739" />
-    <state width="1398" height="245" key="GridCell.Tab.1.left" timestamp="1612610815739">
+    <state width="1398" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1612621262048" />
+    <state width="1398" height="245" key="GridCell.Tab.1.left" timestamp="1612621262048">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1612610815739" />
-    <state width="1398" height="245" key="GridCell.Tab.1.right" timestamp="1612610815739">
+    <state width="1398" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1612621262048" />
+    <state width="1398" height="245" key="GridCell.Tab.1.right" timestamp="1612621262048">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1612610815739" />
+    <state width="1398" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1612621262048" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1612551951656">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1612551951656" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1612611073528">
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1612611898615">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1612611073528" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1612611898615" />
     <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1612611441102">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1612611441102" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1612611588047">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1612717056067">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1612611588047" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1612717056067" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/devcamp_portfolio@Development__devcamp_portfolio.rcov" NAME="Development: devcamp-portfolio Coverage Results" MODIFIED="1612610109618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="devcamp-portfolio" />
+    <SUITE FILE_PATH="coverage/devcamp_portfolio@Development__devcamp_portfolio.rcov" NAME="Development: devcamp-portfolio Coverage Results" MODIFIED="1612716115598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="devcamp-portfolio" />
   </component>
 </project>
