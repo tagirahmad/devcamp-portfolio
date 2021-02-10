@@ -20,14 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34046b84-6621-45e4-91a8-8395c4979468" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/devcamp-portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/devcamp-portfolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +194,7 @@
       <workItem from="1612809125713" duration="362000" />
       <workItem from="1612896518800" duration="871000" />
       <workItem from="1612948352666" duration="805000" />
-      <workItem from="1612959673520" duration="412000" />
+      <workItem from="1612959673520" duration="942000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1612551590855</created>
@@ -272,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612946193216</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Integrate new gem into rails app for copyright">
+      <created>1612960567852</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1612960567852</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,7 +303,8 @@
     <MESSAGE value="Implemented helper methods from ActionView" />
     <MESSAGE value="Add pry-byebug" />
     <MESSAGE value="Implemented bootstrap gem and styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented bootstrap gem and styles" />
+    <MESSAGE value="Integrate new gem into rails app for copyright" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integrate new gem into rails app for copyright" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612552043469">
@@ -313,46 +315,46 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="466" y="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1612604827397" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1612958846227">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1612961000225">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612958846227" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1612958846226">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612961000225" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1612961000224">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1612958846226" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1612958846226">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1612961000224" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1612961000222">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1612958846226" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1612958846226">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1612961000222" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1612961000224">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1612958846226" />
-    <state width="1398" height="245" key="GridCell.Tab.1.bottom" timestamp="1612958846228">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1612961000224" />
+    <state width="1398" height="245" key="GridCell.Tab.1.bottom" timestamp="1612961000227">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612958846228" />
-    <state width="1398" height="245" key="GridCell.Tab.1.center" timestamp="1612958846227">
+    <state width="1398" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1612961000227" />
+    <state width="1398" height="245" key="GridCell.Tab.1.center" timestamp="1612961000226">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1612958846227" />
-    <state width="1398" height="245" key="GridCell.Tab.1.left" timestamp="1612958846227">
+    <state width="1398" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1612961000226" />
+    <state width="1398" height="245" key="GridCell.Tab.1.left" timestamp="1612961000225">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1612958846227" />
-    <state width="1398" height="245" key="GridCell.Tab.1.right" timestamp="1612958846228">
+    <state width="1398" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1612961000225" />
+    <state width="1398" height="245" key="GridCell.Tab.1.right" timestamp="1612961000226">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1612958846228" />
+    <state width="1398" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1612961000226" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1612551951656">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1612551951656" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1612946194986">
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1612960572438">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1612946194986" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1612960572438" />
     <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1612611441102">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -363,6 +365,6 @@
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1612948359460" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/devcamp_portfolio@Development__devcamp_portfolio.rcov" NAME="Development: devcamp-portfolio Coverage Results" MODIFIED="1612960506331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="devcamp-portfolio" />
+    <SUITE FILE_PATH="coverage/devcamp_portfolio@Development__devcamp_portfolio.rcov" NAME="Development: devcamp-portfolio Coverage Results" MODIFIED="1612961487490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="devcamp-portfolio" />
   </component>
 </project>
