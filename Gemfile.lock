@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/tagirahmad/tagir_view_tool
+  revision: deec84ea42fabdc491a5224dd8218ff5d785ee90
+  branch: main
+  specs:
+    tagir_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -228,6 +235,7 @@ DEPENDENCIES
   rails (~> 6.1.0)
   sass-rails (>= 6)
   spring
+  tagir_view_tool!
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
