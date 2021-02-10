@@ -1,3 +1,8 @@
 <h1>Hi, <%= current_user.first_name %></h1>
-<h2>Homepage</h1>
+<h2>Homepage</h2>
 <p>Find me in app/views/pages/home.html.erb</p>
+<hr>
+
+<%= content_tag :p, class: 'my-special-class' do %>
+  I am in paragraph tag
+<% end %>
