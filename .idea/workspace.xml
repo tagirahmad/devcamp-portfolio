@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34046b84-6621-45e4-91a8-8395c4979468" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/devcamp-portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/devcamp-portfolio.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
     </list>
@@ -38,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="view" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -195,6 +196,9 @@
       <workItem from="1612896518800" duration="871000" />
       <workItem from="1612948352666" duration="805000" />
       <workItem from="1612959673520" duration="942000" />
+      <workItem from="1612961611449" duration="212000" />
+      <workItem from="1612961826871" duration="13000" />
+      <workItem from="1613027140746" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1612551590855</created>
@@ -273,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612960567852</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Merge rubygem branch into main">
+      <created>1612961685233</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1612961685233</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,7 +315,8 @@
     <MESSAGE value="Add pry-byebug" />
     <MESSAGE value="Implemented bootstrap gem and styles" />
     <MESSAGE value="Integrate new gem into rails app for copyright" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integrate new gem into rails app for copyright" />
+    <MESSAGE value="Merge rubygem branch into main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge rubygem branch into main" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612552043469">
@@ -347,22 +359,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1612961000226" />
+    <state x="608" y="324" key="MultipleFileMergeDialog" timestamp="1612961618740">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="608" y="324" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1612961618740" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1612551951656">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1612551951656" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1612960572438">
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1612961686825">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1612960572438" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1612961686825" />
+    <state x="430" y="245" key="git4idea.merge.GitMergeDialog" timestamp="1612961662611">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="430" y="245" key="git4idea.merge.GitMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1612961662611" />
     <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1612611441102">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1612611441102" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1612948359460">
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1613027163217">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1612948359460" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1613027163217" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/devcamp_portfolio@Development__devcamp_portfolio.rcov" NAME="Development: devcamp-portfolio Coverage Results" MODIFIED="1612961487490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="devcamp-portfolio" />
