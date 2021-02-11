@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34046b84-6621-45e4-91a8-8395c4979468" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/views/shared/_application_nav.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/pages/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/home.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/shared/_nav.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_nav.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="ERB File" />
         <option value="Ruby File" />
+        <option value="ERB File" />
       </list>
     </option>
   </component>
@@ -206,7 +208,8 @@
       <workItem from="1612961611449" duration="212000" />
       <workItem from="1612961826871" duration="13000" />
       <workItem from="1613027140746" duration="3038000" />
-      <workItem from="1613030788465" duration="1490000" />
+      <workItem from="1613030788465" duration="4567000" />
+      <workItem from="1613040364488" duration="2998000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1612551590855</created>
@@ -306,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613027455876</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Installed styles for application layout">
+      <created>1613033981280</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1613033981280</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,7 +350,8 @@
     <MESSAGE value="Merge rubygem branch into main" />
     <MESSAGE value="Installed petergate gem for authorization" />
     <MESSAGE value="Added instalation requirments for petergate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added instalation requirments for petergate" />
+    <MESSAGE value="Installed styles for application layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Installed styles for application layout" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612552043469">
@@ -351,38 +362,38 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="466" y="301" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1612604827397" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1613029754223">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1613040483730">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1613029754223" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1613029754221">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1613040483730" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1613040483729">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1613029754221" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1613029754220">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1613040483729" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1613040483729">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1613029754220" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1613029754222">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1613040483729" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1613040483730">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1613029754222" />
-    <state width="1398" height="245" key="GridCell.Tab.1.bottom" timestamp="1613029754225">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1613040483730" />
+    <state width="1398" height="245" key="GridCell.Tab.1.bottom" timestamp="1613040483733">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1613029754225" />
-    <state width="1398" height="245" key="GridCell.Tab.1.center" timestamp="1613029754224">
+    <state width="1398" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1613040483733" />
+    <state width="1398" height="245" key="GridCell.Tab.1.center" timestamp="1613040483732">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1613029754224" />
-    <state width="1398" height="245" key="GridCell.Tab.1.left" timestamp="1613029754224">
+    <state width="1398" height="245" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1613040483732" />
+    <state width="1398" height="245" key="GridCell.Tab.1.left" timestamp="1613040483731">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1613029754224" />
-    <state width="1398" height="245" key="GridCell.Tab.1.right" timestamp="1613029754225">
+    <state width="1398" height="245" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1613040483731" />
+    <state width="1398" height="245" key="GridCell.Tab.1.right" timestamp="1613040483732">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1613029754225" />
+    <state width="1398" height="245" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1613040483732" />
     <state x="608" y="324" key="MultipleFileMergeDialog" timestamp="1612961618740">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -391,10 +402,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1612551951656" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1613028362016">
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1613033983309">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1613028362016" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1613033983309" />
     <state x="430" y="245" key="git4idea.merge.GitMergeDialog" timestamp="1612961662611">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -409,6 +420,6 @@
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1613033782661" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/devcamp_portfolio@Development__devcamp_portfolio.rcov" NAME="Development: devcamp-portfolio Coverage Results" MODIFIED="1613033795552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="devcamp-portfolio" />
+    <SUITE FILE_PATH="coverage/devcamp_portfolio@Development__devcamp_portfolio.rcov" NAME="Development: devcamp-portfolio Coverage Results" MODIFIED="1613040483693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="devcamp-portfolio" />
   </component>
 </project>
