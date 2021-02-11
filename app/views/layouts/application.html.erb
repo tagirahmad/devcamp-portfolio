@@ -38,10 +38,9 @@
 
   <%= yield %>
 
-  <footer class="mt-auto text-white-50">
-    <%= copyright_generator %>
-    <%= source_helper %>
-  </footer>
+  <% source_helper %>
+
+  <%= render 'shared/application_footer' %>
 </div>
 </body>
 
