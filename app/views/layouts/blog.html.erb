@@ -20,59 +20,25 @@
 
 <%#= login_helper cls: 'nav-link' %>
 
-<%= render 'devise/shared/blog_nav' %>
+<%= render 'shared/blog_nav' %>
 
-<div class="blog-header">
-  <div class="container">
-    <h1 class="blog-title">My Blog</h1>
-    <p class="lead blog-description">Description</p>
-    <%= link_to 'Write a New Blog',  new_blog_path if logged_in?(:site_admin) %>
+<div class="container">
+  <div class="blog-header py-3">
+    <div class="container">
+      <h1 class="blog-title">My Blog</h1>
+      <p class="lead blog-description">Description</p>
+      <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
+    </div>
   </div>
 </div>
 
-<main class="container">
+<main class="container mt-3">
   <div class="row">
     <div class="col-md-8">
       <%= yield %>
-
-      <nav class="blog-pagination" aria-label="Pagination">
-        <a class="btn btn-outline-primary" href="#">Older</a>
-        <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
-      </nav>
     </div>
 
-    <div class="col-md-4">
-      <div class="p-4 mb-3 bg-light rounded">
-        <h4 class="fst-italic">About</h4>
-        <p class="mb-0">Saw you downtown singing the Blues. Watch you circle the drain. Why don't you let me stop by? Heavy is the head that <em>wears the crown</em>. Yes, we make angels cry, raining down on earth from up above.</p>
-      </div>
-
-      <div class="p-4">
-        <h4 class="fst-italic">Archives</h4>
-        <ol class="list-unstyled mb-0">
-          <li><a href="#">March 2014</a></li>
-          <li><a href="#">February 2014</a></li>
-          <li><a href="#">January 2014</a></li>
-          <li><a href="#">December 2013</a></li>
-          <li><a href="#">November 2013</a></li>
-          <li><a href="#">October 2013</a></li>
-          <li><a href="#">September 2013</a></li>
-          <li><a href="#">August 2013</a></li>
-          <li><a href="#">July 2013</a></li>
-          <li><a href="#">June 2013</a></li>
-          <li><a href="#">May 2013</a></li>
-          <li><a href="#">April 2013</a></li>
-        </ol>
-      </div>
-      <div class="p-4">
-        <h4 class="fst-italic">Elsewhere</h4>
-        <ol class="list-unstyled">
-          <li><a href="#">GitHub</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Facebook</a></li>
-        </ol>
-      </div>
-    </div>
+    <%= render 'shared/blog_sidebar' %>
   </div>
 </main>
 

@@ -1,21 +1,9 @@
 <p id="notice"><%= notice %></p>
 
 <%= render @blogs %>
-<!--<table>-->
-<!--  <thead>-->
-<!--  <tr>-->
-<!--    <th>Title</th>-->
-<!--    <th>Date</th>-->
-<!--    <th>Body</th>-->
-<!--    <th colspan="4"></th>-->
-<!--  </tr>-->
-<!--  </thead>-->
 
-<!--  <tbody>-->
-  <%#= render @blogs %>
-
-<!--  </tbody>-->
-<!--</table>-->
-
-<br>
+<nav class="blog-pagination" aria-label="Pagination">
+  <a class="btn btn-outline-primary" href="#">Older</a>
+  <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
+</nav>
 
