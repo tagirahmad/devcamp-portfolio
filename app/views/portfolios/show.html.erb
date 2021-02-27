@@ -1,15 +1,23 @@
-<%= image_tag @portfolio_item.main_image %>
-
-<h1><%= @portfolio_item.title %></h1>
-<em><%= @portfolio_item.subtitle %></em>
-<p><%= @portfolio_item.body %></p>
-
-<h2>Technologies Used</h2>
-
-<% @portfolio_item.technologies.each do |t| %>
-<p><%= t.name %></p>
-<% end %>
-
-<hr>
-
-<%= session.inspect %>
+<div class="container d-flex">
+  <div class="col justify-content-center">
+    <div class="row">
+      <div class="col-md-7 col-sm-7">
+        <%= image_tag @portfolio_item.main_image, class: "img-fluid" %>
+      </div>
+      <div class="col-md-5 col-sm-5">
+        <h1><%= @portfolio_item.title %></h1>
+        <hr>
+        <em><%= @portfolio_item.subtitle %></em>
+        <p><%= @portfolio_item.body %></p>
+        <hr>
+        <h3>Technologies Used</h3>
+        <% @portfolio_item.technologies.each do |t| %>
+          <p><%= t.name %></p>
+        <% end %>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <%= link_to "View All Portfolio Items", portfolios_path, class: "text-center" %>
+    </div>
+  </div>
+</div>
