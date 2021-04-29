@@ -8,7 +8,9 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 import "bootstrap"
+import 'jquery-ui'
 require("packs/html.sortable");
+require("packs/portfolios.coffee")
 
 Rails.start()
 Turbolinks.start()
