@@ -253,3 +253,7 @@ modules.xml
 
 
 # End of https://www.toptal.com/developers/gitignore/api/rubymine+all,rubymine+iml,rubymine
+
+
+# Custom
+.env
