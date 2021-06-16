@@ -2,7 +2,7 @@
   <div class="col justify-content-center">
     <div class="row">
       <div class="col-md-7 col-sm-7">
-        <%= image_tag portfolio_img(@portfolio_item.main_image, 'main'), class: "img-fluid", width: "100%" %>
+        <%= image_tag @portfolio_item.main_image.to_s, class: "img-fluid", width: "100%" %>
       </div>
       <div class="col-md-5 col-sm-5">
         <h1><%= @portfolio_item.title %></h1>
